@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    border: solid 10px red;
+    height: 110vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+div{
+    width: 20vw;
+    height: 25vh;
+}
+.azul{
+    background-color: blue;
+}
+.tomato{
+    background-color: tomato;
+}
+.cinza{
+    background-color: grey;
+}
+.violeta{
+    background-color: violet;
+}
